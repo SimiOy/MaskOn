@@ -1,0 +1,232 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9223036765722036536
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9223036765722036542}
+  - component: {fileID: 9223036765722036543}
+  m_Layer: 0
+  m_Name: SkinsGBManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9223036765722036542
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9223036765722036536}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -25.327904, y: -29.021217, z: 6.5812054}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9223036765722036543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9223036765722036536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b8fa7f62c0854948b0b0de61b41768c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skins:
+  - _prefab: {fileID: 1034553667336506, guid: fb77ae71d62794c42b7255a40a61a242, type: 3}
+    _name: SchoolBoy
+    _available: 1
+    _cost: 0
+    _id: 30
+  - _prefab: {fileID: 1145364090065650, guid: b661553bcb8b848449ef8cc9489f4f7a, type: 3}
+    _name: SchoolGirl
+    _available: 1
+    _cost: 0
+    _id: 31
+  - _prefab: {fileID: 1828907805280080, guid: 181dc0ba5081a344e84cb2e5f5a5b7dd, type: 3}
+    _name: BusinessMan
+    _available: 1
+    _cost: 0
+    _id: 1
+  - _prefab: {fileID: 1244755482517378, guid: b93914c580b6b45489d95383bb33828f, type: 3}
+    _name: BusinessWoman
+    _available: 1
+    _cost: 0
+    _id: 3
+  - _prefab: {fileID: 1158145756601644, guid: 000c30e3bfd0152489d4d663914aee83, type: 3}
+    _name: AverageTeenGirl
+    _available: 1
+    _cost: 0
+    _id: 4
+  - _prefab: {fileID: 1258619375881096, guid: e15d3738897cec74d845fa35b2585484, type: 3}
+    _name: SundayDad
+    _available: 1
+    _cost: 0
+    _id: 7
+  - _prefab: {fileID: 1891422537391016, guid: 9dd1132792c8f5e46bcd555cda074904, type: 3}
+    _name: AverageGuy
+    _available: 1
+    _cost: 0
+    _id: 22
+  - _prefab: {fileID: 1576594309657800, guid: 17f2609152389784086617ed8b4307f2, type: 3}
+    _name: Son
+    _available: 1
+    _cost: 0
+    _id: 34
+  - _prefab: {fileID: 1253556487391000, guid: 6e0eba82d6ca2e444ab251c32bdffcd2, type: 3}
+    _name: PoliceWoman
+    _available: 1
+    _cost: 0
+    _id: 10
+  - _prefab: {fileID: 1705653545518550, guid: 97dde85a63e5a26418556b52beefe518, type: 3}
+    _name: BaristaHipser
+    _available: 1
+    _cost: 0
+    _id: 21
+  - _prefab: {fileID: 1793352060976458, guid: f0035ce155c0a5b40bab2f30a7bdd30f, type: 3}
+    _name: RoadWorker
+    _available: 1
+    _cost: 0
+    _id: 29
+  - _prefab: {fileID: 1519168518667508, guid: a09c36d9674e75f41a494ce953559f04, type: 3}
+    _name: ChillGrandma
+    _available: 1
+    _cost: 0
+    _id: 14
+  - _prefab: {fileID: 1299568874674962, guid: 4e52f00c250fe274282c255981546e46, type: 3}
+    _name: GermanGirl
+    _available: 1
+    _cost: 0
+    _id: 16
+  - _prefab: {fileID: 1508135490251076, guid: 4fca8152a13bd7840a78177d98266f8b, type: 3}
+    _name: Mum
+    _available: 1
+    _cost: 0
+    _id: 23
+  - _prefab: {fileID: 1546435506868748, guid: 89fbce75e15ab584587d452df4706a8c, type: 3}
+    _name: AverageWoman
+    _available: 1
+    _cost: 0
+    _id: 9
+  - _prefab: {fileID: 1911384272022466, guid: b0a05f04d697c014b9a29c1802c33b7a, type: 3}
+    _name: GuyFromUP
+    _available: 0
+    _cost: 250
+    _id: 15
+  - _prefab: {fileID: 1855387528551536, guid: e6f1e13343ea0f146a6a6b594ccf664b, type: 3}
+    _name: StreetBoy
+    _available: 0
+    _cost: 225
+    _id: 13
+  - _prefab: {fileID: 1618728525863282, guid: 8290cdcc311ae774b8b2337965af0c77, type: 3}
+    _name: GamerGirl(^_^)
+    _available: 0
+    _cost: 800
+    _id: 12
+  - _prefab: {fileID: 1209125636603334, guid: 556dfb4cf14718c4c977d07cb442691e, type: 3}
+    _name: FireFighter
+    _available: 0
+    _cost: 350
+    _id: 11
+  - _prefab: {fileID: 1037506244427634, guid: 143cf626d609a7a4c99f17d64c843004, type: 3}
+    _name: FastFoodWorker
+    _available: 0
+    _cost: 450
+    _id: 5
+  - _prefab: {fileID: 1194440336069740, guid: c75b833e269eebc47a5fda5832a5c25e, type: 3}
+    _name: RedBeard (not the pirate)
+    _available: 0
+    _cost: 850
+    _id: 6
+  - _prefab: {fileID: 1269969655095048, guid: 086eb706c3edcf447aa2a9e0e0155538, type: 3}
+    _name: CoolBusinessMan
+    _available: 0
+    _cost: 450
+    _id: 2
+  - _prefab: {fileID: 1356772897203052, guid: ecce7fd9ad28e59488f2490e9c1aa92a, type: 3}
+    _name: GuyThatServesYouCoffee_or_IsAnActualCelebrity
+    _available: 0
+    _cost: 900
+    _id: 17
+  - _prefab: {fileID: 1508561325381452, guid: 60ac356c0a6f2694785d679c71585c01, type: 3}
+    _name: StylishWoman
+    _available: 0
+    _cost: 300
+    _id: 8
+  - _prefab: {fileID: 1816053417719756, guid: 3d1c589fc5777f74bae9884427692506, type: 3}
+    _name: TikToker
+    _available: 0
+    _cost: 2500
+    _id: 35
+  - _prefab: {fileID: 1659032930485048, guid: 29575d7a83c844447a18c331de49439d, type: 3}
+    _name: ItsNotJustAPhaseMum_woman
+    _available: 0
+    _cost: 900
+    _id: 27
+  - _prefab: {fileID: 1653085758709042, guid: a9d1a634c0303c04e955a153d0a26124, type: 3}
+    _name: HoboOrStreetwearDunno
+    _available: 0
+    _cost: 350
+    _id: 18
+  - _prefab: {fileID: 1562029734628440, guid: 10c5537e0d3282544b4c5948d4be85ef, type: 3}
+    _name: BikerDude
+    _available: 0
+    _cost: 550
+    _id: 0
+  - _prefab: {fileID: 1163586836933800, guid: c826ec50ef42ad94d999e91d184745c1, type: 3}
+    _name: BeachMum
+    _available: 0
+    _cost: 225
+    _id: 24
+  - _prefab: {fileID: 1321658202123526, guid: 277b4a847cb8a424ba39deea5d554ee3, type: 3}
+    _name: Paramedic
+    _available: 0
+    _cost: 450
+    _id: 25
+  - _prefab: {fileID: 1592832275445172, guid: 6519bbd6b3a14a443ab76eec3a00690e, type: 3}
+    _name: Policeman
+    _available: 0
+    _cost: 400
+    _id: 26
+  - _prefab: {fileID: 1814099244682636, guid: 4cb71591b37de994fbdc51849d385d41, type: 3}
+    _name: MyDadIsALawyer
+    _available: 0
+    _cost: 600
+    _id: 20
+  - _prefab: {fileID: 1615003726210220, guid: 83ee10f4aa3678f468ff8a8b30a275d8, type: 3}
+    _name: ItsNotJustAPhaseMum_male
+    _available: 0
+    _cost: 900
+    _id: 28
+  - _prefab: {fileID: 1328167256303300, guid: cb04aaf2565cd514ea0cd707372e6080, type: 3}
+    _name: ShopKeeperess
+    _available: 0
+    _cost: 300
+    _id: 33
+  - _prefab: {fileID: 1464760467788068, guid: c5e87bb6a51d86d47b607893784e823b, type: 3}
+    _name: ShopKeeper
+    _available: 0
+    _cost: 300
+    _id: 32
+  - _prefab: {fileID: 1854240188731564, guid: ce7dbc70b8a277d4fa8e81b8a629f190, type: 3}
+    _name: HotDogDude
+    _available: 0
+    _cost: 850
+    _id: 19
+  - _prefab: {fileID: 1581350133977244, guid: 03f232cfb90b29147b5813efa12f5083, type: 3}
+    _name: Tourist (not encouraged)
+    _available: 0
+    _cost: 1000
+    _id: 36
+  boughtSkins: []
